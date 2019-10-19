@@ -296,4 +296,12 @@ input[type=text] {
     .highlights__text {
         padding: 25px;
     }
+
+    .panel__form {
+        flex-direction: column;
+    }
+
+    .panel__button {
+        margin-top: 20px;
+    }
 }
