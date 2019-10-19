@@ -11,11 +11,13 @@ $(document).ready(function(){
         $.cookie("notif_cookie", "foo")
     });    
 
+    let scrolled = false;
     if(!panelCookie) {
         $(document).scroll(function() {
-            var yAxis = $(this).scrollTop();
-            if (yAxis > 300) {
-            $(".panel").fadeIn();
+                const yAxis = $(this).scrollTop();
+                if (yAxis > 300 && !scrolled) {
+                $(".panel").fadeIn();
+                scrolled = true;
             }
         });
     }
