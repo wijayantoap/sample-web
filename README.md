@@ -1,6 +1,3 @@
-# cermati-test
-Cermati Recruitment Test for Wijayanto (Frontend Developer (Freshgraduate, Senior, Principal, & Senior Principal Position))
-
 ## Preview:
 * https://cermati-test-e10c3.firebaseapp.com/
 * https://cermati-test-e10c3.web.app/
